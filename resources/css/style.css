@@ -140,3 +140,41 @@ footer {
     display: none;
   }
 }
+
+@media only screen and (max-width: 470px) {
+.headline {
+  width: 100%;
+  padding: 1rem 2rem;
+  top: 10.8rem;
+}
+.main-banner {
+  height: 15rem;
+}
+.product, .info {
+  width: 90%;
+  margin: auto;
+  margin: 0.5rem auto;
+}
+
+.product.watch {
+  display: none;
+}
+
+.products, .business-info {
+    flex-wrap: wrap;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.headline h1 {
+  font-size: 1rem;
+}
+
+.headline h4 {
+  font-size: 0.77rem;
+}
+
+}

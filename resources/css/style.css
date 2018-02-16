@@ -65,6 +65,10 @@ nav ul {
   justify-content: space-between;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .products, .business-info {
     display: flex;
     justify-content: space-between;
@@ -116,4 +120,23 @@ footer {
   width: 100%;
   color: white;
   text-align: left;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+  nav ul {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+  .product {
+    width: 47%;
+  }
+  .product.glasses {
+    display: none;
+  }
 }
